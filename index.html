@@ -1,108 +1,443 @@
-<!DOCTYPE html>
-<html lang="en" >
+<!doctype html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>csslightbox</title>
-  
-  
-  
-      <link rel="stylesheet" href="/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 
-  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<title>Kendra + Jian</title>
 </head>
 
 <body>
-
-  <div class="header fade-in">
-  <h>JIAN</h>
-</div>
-
-<div class="instagram">
-   <a href="https://www.instagram.com/jian2changz/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
-      </a>
-</div>
-
-<div class="img_wrap fade-in">
-   <img src="https://farm2.staticflickr.com/1977/45381250091_996c64bd2d_o.jpg">
   
-     <div class="img__description_layer">
-    <p class="img__description">JAPAN</p>
-       <a href="#text1"> </a>
+<!----Header w/ Navigation---->
+
+<header>
+  <nav id="navigation">
+    <div class="header-main">
+      <a href="url"><img class="utsurundesu" src="http://167.99.106.90/img/kendrajian.svg"></a>
+    </div>
+    <div class="header-sticky" id="sticky">
+    <div class="header-sticky-maxwidth">
+      <h3 class="header-sticky-text">Hold to Save, Click to Expand</h3>
+    </div>
   </div>
-</div>
-             <div class="lightbox short-animate" id="text1">
-             <div class="header2">
-  <h>JAPAN</h>
-               </div>
-    <img class="long-animate" src="https://farm2.staticflickr.com/1942/45381244161_aea38495ce_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1917/43564781480_7de8a73011_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1904/45381094671_d3e773ec6f_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1909/30441507387_b39340444f_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1953/30441511377_048c63e9b9_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1947/44467293275_8f2e6e8a91_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1950/45330723712_13b69e180b_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1931/45381227721_859168a32f_o.jpg"/>
-               <img class="long-animate" src="https://farm2.staticflickr.com/1937/45381199921_249f67b094_o.jpg"/>
-               
-               <img class="long-animate" src="https://farm2.staticflickr.com/1938/31505950588_fbdc24cb1a_o.jpg"/>
-               
-               
-            </div>
-
-
-<div class="img_wrap">
-   <img src="https://farm2.staticflickr.com/1915/45193650531_465fa2c946_o.jpg">
+</nav>
   
-     <div class="img__description_layer">
-    <p class="img__description">35MM</p>
-       <a href="#text2"> </a>
-  </div>
+</header>
+  
+<!--------- Lightbox ---------->
+  
+<div class="lightbox">
+  <figure>
+  <img id="lightbox-img" src="" alt="">
+  <figcaption class="lightbox-caption"></figcaption>
+  </figure>
 </div>
   
+<!---------- Images ----------->
+<div class="container-maxwidth">
 
-
-<div class="lightbox short-animate" id="text2">
-             <div class="header2">
-  <h>JAPAN</h>
-               </div>
-  <img class="long-animate" src="https://farm2.staticflickr.com/1944/44430028364_59958eec5e_o.jpg"/>
-     <img class="long-animate" src="https://farm2.staticflickr.com/1970/44240024875_58def07745_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1950/44240039905_be002d5af3_o.jpg"/>
-  <img class="long-animate" src="https://farm2.staticflickr.com/1905/43337935940_87e0b63fa5_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1923/45102813672_06e679c647_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1930/45102816442_8b3bca1199_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1905/44240154955_b9f3e872b2_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1901/45102830922_b1430a8a8d_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1905/45151819131_9c2f8bb2d0_o.jpg"/>
-  <img class="long-animate" src="https://farm2.staticflickr.com/1937/43338106310_31cf4b06c0_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1963/44240165045_d763b14636_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1945/30213677547_e17ac742f7_o.jpg"/>
-  <img class="long-animate" src="https://farm2.staticflickr.com/1949/44240187535_c1ebb4529c_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1960/44240198435_80d684a8e2_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1948/44240220045_848f6b0362_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1903/43338168490_91fd6d70a3_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1941/45102957122_5fe851fd13_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1959/43338202380_9ee339d725_o.jpg"/>
-   <img class="long-animate" src="https://farm2.staticflickr.com/1978/30213813617_1988b007e4_o.jpg"/>
+  <div class="kendra">
    
-            </div>
-
-     <div id="lightbox-controls" class="short-animate">
-    <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+    <div class="one">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069967_0bd51be071_o.jpg" alt="">
+      </div>
+    </div>
+      
+    <div class="two">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069917_14b04b379a_o.jpg" alt="">
+      </div>
+    </div>
+  
+    <div class="three">
+      <div class="reflow r-landscape">
+        <img  class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920906_d99814dec1_o.jpg" alt="">
+      </div>
+    </div>
+      
+    <div class="four">
+      <div class="reflow r-landscape">
+        <img  class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069857_fc7753e6d2_o.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="five">
+      <div class="reflow">
+        <img  class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920831_c5fb939a0b_o.jpg" alt="">
+      </div>
+    </div>
+      
+    <div class="six">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920796_c4e3208caf_o.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="seven">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069772_6d821a2647_o.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="eight">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920736_6cbb097c73_o.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="nine">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069722_106b3bbaf4_o.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="ten">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920711_46e50e50c0_o.jpg" alt="">
+      </div>
+    </div>
   </div>
+
+  
+  <div class="heng">
+    
+    <div class="eleven">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920606_211d08c756_o.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="twelve">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069682_6c38924605_o.jpg" alt="">
+      </div>
+    </div>
+      
+    <div class="thirteen">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069607_9368cd2e10_o.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="fourteen">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069602_c94337fdff_o.jpg" alt="">
+      </div>
+    </div>
+    
+  
+  </div>
+
+  <div class="brent">
+  
+    <div class="fifteen">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421198801_a9c66cb2b7_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="sixteen">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919231_da67ef8fdb_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="seventeen">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069512_14a5765396_o.jpg" alt="">
+      </div>
     </div>
    
-</div>
+  </div>
   
+  <div class="lee">
+    <div class="eighteen">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920456_3273f9c086_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="nineteen">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920411_9a94f85851_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="twenty">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919206_683e9741b0_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="twentyone">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920381_46cbe218f8_o.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  
+  <div class="crew">
+    <div class="twentytwo">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920371_eff8b68b74_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="twentythree">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421364106_ce05cec95a_o.jpg" alt="">
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="kal">
+    <div class="twentyfour">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069312_3252e186f1_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="twentyfive">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069282_a2e8c4c4e2_o.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="kal2">
+    <div class="twentysix">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069232_8d7303c149_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="twentyseven">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069197_0137da7a2d_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="twentyeight">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069157_8466d35345_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="twentynine">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069102_9a258e325e_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="thirty">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920121_b2515f0f13_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="thirtyone">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420920086_e5a3d22881_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="thirtytwo">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421069007_3e9006e22c_o.jpg" alt="">
+      </div>
+    </div>
+    
+    
+   
+  
+  </div>
+ <div class="friends">
+   <div class="thirtythree">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068977_fa7c83952a_o.jpg" alt="">
+      </div>
+   </div>
+     <div class="thirtyfour">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919901_05364919b4_o.jpg" alt="">
+      </div>
+    </div>
+   <div class="thirtyfive">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919836_e9f7241910_o.jpg" alt="">
+      </div>
+    </div>
+   <div class="thirtysix">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919811_abbd00d31c_o.jpg" alt="">
+      </div>
+    </div>
+    </div>
+  
+   <div class="bw">
+     <div class="thirtyseven">
+      <div class="reflow r-landscape2">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919786_7abe80540b_o.jpg" alt="">
+      </div>
+    </div>
+    <div class="thirtyeight">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068667_384438773a_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="thirtynine">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068652_551b9849cf_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourty">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919156_d2a9c1801d_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtyone">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068107_356a7213ee_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtytwo">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919741_76d21d04d2_o.jpg" alt="">
+      </div>
+    </div>
+
+   </div>
+   <div class="bw2">
+     <div class="fourtythree">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919721_68870dc555_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtyfour">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420918996_798543986d_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtyfive">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919696_148da88130_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtysix">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919686_68870dc555_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtyseven">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919136_bfec50e09e_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtyeight">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068007_6ddfa81a66_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fourtynine">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421067972_3f6a68b15a_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fifty">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421067942_9516b84b95_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftyone">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068492_6955c9ddee_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftytwo">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068477_4f65c47e8d_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftythree">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919566_0418ed6eff_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftyfour">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068442_cf09de157a_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftyfive">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919511_d639edea45_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftysix">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420918961_a3d1077b68_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftyseven">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068352_2c295fd1c7_o.jpg" alt="">
+      </div>
+    </div>
+     <div class="fiftyeight">
+      <div class="reflow">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068317_afcd7a9685_o.jpg" alt="">
+      </div>
+    </div>
+   </div>
+<div class="portraits">
+  <div class="fiftynine">
+      <div class="reflow r-portrait">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068292_5cb05bfe0d_o.jpg" alt="">
+      </div>
+    </div>
+  <div class="sixty">
+      <div class="reflow r-portrait">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919411_989fa0ab14_o.jpg" alt="">
+      </div>
+    </div>
+  <div class="sixtyone">
+      <div class="reflow r-portrait">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421067852_6189e90044_o.jpg" alt="">
+      </div>
+    </div>
+  <div class="sixtytwo">
+      <div class="reflow r-portrait">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068222_b553d6e13c_o.jpg" alt="">
+      </div>
+    </div>
+  <div class="sixtythree">
+      <div class="reflow r-portrait">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420919306_14efa121e9_o.jpg" alt="">
+      </div>
+    </div>
+  <div class="sixtyfour">
+      <div class="reflow r-portrait">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48421068172_2d6bb0bd65_o.jpg" alt="">
+      </div>
+    </div>
+  <div class="sixtyfive">
+      <div class="reflow r-landscape">
+        <img class="lazy" data-srcset="https://live.staticflickr.com/65535/48420918881_025bfe6619_o.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  
+    <button id="button-return-top">
+      <div class="arrow-left"></div>
+      <div class="arrow-right"></div>
+    </button>
+  </div>
   
 
-    <script  src="js/index.js"></script>
-
-
-
+<footer class="footer">
+  <div class="footer-maxwidth">
+    <div class="footer-links">
+      <p class="peace">&#x270C;</p>
+    </div>
+  </div>
+  
+</footer>
 
 </body>
-
+  
 </html>
